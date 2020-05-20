@@ -6,14 +6,18 @@
   "scripts": {
     "start": "parcel index.html --open",
     "start:production": "parcel index.html --open",
-    "build": "parcel build -d public index.html"
+    "build": "parcel build -d public index.html",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "fabric": "3.6.3"
+    "fabric": "3.6.3",
+    "snyk": "^1.323.0"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
     "parcel-bundler": "^1.6.1"
   },
-  "keywords": []
+  "keywords": [],
+  "snyk": true
 }
