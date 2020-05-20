@@ -9,7 +9,7 @@
     "build": "parcel build -d public index.html"
   },
   "dependencies": {
-    "fabric": "3.4.0"
+    "fabric": "3.6.3"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
